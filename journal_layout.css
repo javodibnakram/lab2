@@ -3,16 +3,35 @@ body {
 }
 
 #wrap {
-	border-style: solid;
+	  border-style: solid;
   	border-width: 10px;
   	border-width: thick;
   	border-color: white;
   	background-color: white;
-  	width: 900px; 
+  	width: 800px; 
   	margin-left: 10%;
   	margin-right: 10%;
   	margin: 0 auto;
-  	height: 150%;
+}
+
+img:hover {
+  background-color: yellow;
+}
+
+h1:hover {
+  background-color: yellow;
+}
+
+h2:hover {
+  background-color: yellow;
+}
+
+p:hover {
+  background-color: yellow;
+}
+
+a:hover {
+  background-color: yellow;
 }
 
 #border {
@@ -24,7 +43,22 @@ body {
 	font-size: 14pt;
 }
 
+.friends {
+     width: 150px;
+     position: absolute;
+     height: 120px;
+     border-style: solid;
+     border-width: 4px;
+     border-width: thick;
+     border-color: DarkCyan;
+     background-color: Cyan;
+     padding: 5px;
+     margin-top: 10px;
+}
+
 .border1 {
+     width: 590px;
+     float: right;
 	   border-style: solid;
   	 border-width: 4px;
   	 border-width: thick;
@@ -36,16 +70,23 @@ body {
 }
 
 .border2 {
+     width: 590px;
 	   border-style: solid;
   	 border-width: 4px;
   	 border-width: thick;
   	 border-color: #C2E9E9;
   	 background-color: #E8FBFB;
   	 padding: 5px;
-  	 margin-top: 10px;
-  	 height: 210px;
+  	 margin-top: 200px;
+     margin-left: 190px;
+  	 height: 290px;
 }
 
 .color {
      border-bottom: 2px dashed #009097; 
+}
+
+#img {
+    margin-top: 10px;
+    height: 200px;
 }
